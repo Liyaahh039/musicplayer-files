@@ -1,0 +1,52 @@
+body {
+    background-image: url(Images/Fond3.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-position: center;
+    background-color: #f4f4f4;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0px;
+}
+
+button {
+    flex: 1; /* Assure une répartition égale de l'espace */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: #000000;
+    color: white;
+    margin-bottom: -180px;
+    border-radius: 5px;
+    min-width: 100px; /* Ajuste cette valeur selon tes préférences */
+    position: relative;
+    left: -20px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 60px; /* Ajuste la valeur pour descendre le titre */
+    left: -20px;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #292929;
+}
